@@ -1,0 +1,10 @@
+# Create Advert
+POST http://127.0.0.1:8000/api/advert
+content-type: application/json
+
+{
+    "name": "user name",
+    "total_budget": 23040,
+    "daily_budget": 1240,
+    "image": "https://image.tmdb.org/t/p/original/bkld8Me0WiLWipLORRNfF1yIPHu.jpg"
+}
